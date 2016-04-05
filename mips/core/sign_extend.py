@@ -13,6 +13,7 @@ def sign_extend(val_in, val_out):
     Arguments:
         val_in : IN the 16-bit input
         val_out : OUT the 32-bit sign extended output 
+        
     """
 
     @always_comb
